@@ -1,0 +1,24 @@
+# Student Analytics Dashboard - Run Commands
+
+## Backend (Flask API)
+# 1. Navigate to the student_dashboard directory
+cd /home/purushotaman/Desktop/learning/python-plotly-dv/python-plotly-dv/student_dashboard
+
+# 2. Activate the virtual environment
+source venv/bin/activate
+
+# 3. Run the Flask backend
+python backend/main.py
+
+# The API will be available at http://127.0.0.1:5000
+
+---
+
+## Frontend (React + Vite)
+# 1. Navigate to the frontend directory
+cd /home/purushotaman/Desktop/learning/python-plotly-dv/python-plotly-dv/student_dashboard/frontend
+
+# 2. Start the Vite development server
+npm run dev
+
+# The dashboard will be available at http://localhost:5173
